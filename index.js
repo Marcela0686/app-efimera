@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('¡Hola Profesor! Este es mi ambiente efímero de prueba para la Actividad 2.3 implementado por [Tu Nombre/Matrícula]');
+    res.send('¡Hola Profesor! Este es mi ambiente efímero de prueba para la  implementado por [Marcela López Núñez]');
 });
 
 app.listen(port, () => {
